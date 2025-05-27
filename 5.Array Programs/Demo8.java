@@ -4,46 +4,42 @@ import java.util.ArrayList;
 
 public class Demo8 {
     // ! Brute Force Approach
-    /* public static int[] moveZeros(int n, int[] a) {
-        ArrayList<Integer> temp = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            if (a[i] != 0)
-                temp.add(a[i]);
-        }
-        int nz = temp.size();
-
-        for (int i = 0; i < nz; i++) {
-            a[i] = temp.get(i);
-        }
-        for (int i = nz; i < n; i++) {
-            a[i] = 0;
-        }
-        return a;
-    } */
+    /*
+     * public static int[] moveZeros(int n, int[] a) {
+     * ArrayList<Integer> temp = new ArrayList<>();
+     * for (int i = 0; i < n; i++) {
+     * if (a[i] != 0)
+     * temp.add(a[i]);
+     * }
+     * int nz = temp.size();
+     * 
+     * for (int i = 0; i < nz; i++) {
+     * a[i] = temp.get(i);
+     * }
+     * for (int i = nz; i < n; i++) {
+     * a[i] = 0;
+     * }
+     * return a;
+     * }
+     */
     // ! Time Complexity O(2*N).
 
     // ! Optimal Approach(Two Pointer Approach)
-    public static int[] moveZeros(int n, int[] a) {
+    public static int[] moveZeros(int n, int[] arr) {
         int j = -1;
-        for (int i = 0; i < n; i++) {
-            if (a[i] == 0) {
-                j = i;
-                break;
+        int index = 0; 
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                if (i != index) { 
+                    int temp = arr[i];
+                    arr[i] = arr[index];
+                    arr[index] = temp;
+                }
+                index++;
             }
         }
-
-        if (j == -1)
-            return a;
-
-        for (int i = j + 1; i < n; i++) {
-            if (a[i] != 0) {
-                int tmp = a[i];
-                a[i] = a[j];
-                a[j] = tmp;
-                j++;
-            }
-        }
-        return a;
+        return arr;
     }
     // ! Time Complexity: O(N)
 

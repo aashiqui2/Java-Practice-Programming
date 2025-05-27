@@ -20,3 +20,5 @@
    Link->https://leetcode.com/problems/move-zeroes/description/
 
 9.Write a program to search given element in an array (Linear Search)?
+
+10.Write a program to find the union of two array?
