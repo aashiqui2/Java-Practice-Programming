@@ -1,7 +1,7 @@
 //! Write a program to find the LCM and GCD of the given numbers?
 public class Demo6 {
     public static void main(String[] args) {
-        LCM(3, 9);
+        LCM(12, 18);
         System.out.println(GCD(11, 22));
     }
 
