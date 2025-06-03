@@ -26,5 +26,6 @@ public class Demo1 {
         }
         return sb.toString();   
     }
+    //! Time complexity:O(n)
 }
-//! LC (1021)->https://leetcode.com/problems/remove-outermost-parentheses/description/
+

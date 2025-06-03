@@ -5,30 +5,28 @@ import java.util.ArrayList;
 public class Demo8 {
     // ! Brute Force Approach
     /*
-     * public static int[] moveZeros(int n, int[] a) {
-     * ArrayList<Integer> temp = new ArrayList<>();
-     * for (int i = 0; i < n; i++) {
-     * if (a[i] != 0)
-     * temp.add(a[i]);
-     * }
-     * int nz = temp.size();
-     * 
-     * for (int i = 0; i < nz; i++) {
-     * a[i] = temp.get(i);
-     * }
-     * for (int i = nz; i < n; i++) {
-     * a[i] = 0;
-     * }
-     * return a;
-     * }
+      public static int[] moveZeros(int n, int[] a) {
+      ArrayList<Integer> temp = new ArrayList<>();
+      for (int i = 0; i < n; i++) {
+      if (a[i] != 0)
+      temp.add(a[i]);
+      }
+      int nz = temp.size();
+      
+      for (int i = 0; i < nz; i++) {
+      a[i] = temp.get(i);
+      }
+      for (int i = nz; i < n; i++) {
+      a[i] = 0;
+      }
+      return a;
+      }
      */
     // ! Time Complexity O(2*N).
 
     // ! Optimal Approach(Two Pointer Approach)
     public static int[] moveZeros(int n, int[] arr) {
-        int j = -1;
         int index = 0; 
-
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
                 if (i != index) { 

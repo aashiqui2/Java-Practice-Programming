@@ -27,4 +27,3 @@ public class Demo5 {
         return sb.toString();
     }
 }
-//! LC(14)->https://leetcode.com/problems/longest-common-prefix/description/
