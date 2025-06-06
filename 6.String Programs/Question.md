@@ -21,11 +21,10 @@ Problem: [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-stri
 ## 7. Check String Rotation
 Problem: [796. Rotate String](https://leetcode.com/problems/rotate-string/description/)
 
-## 8. Check if Array Is Sorted and Rotated
-Problem: [1752. Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
-
-## 9. Check if two Strings are anagrams of each other
+## 8. Check if two Strings are anagrams of each other
 Problem: [242.  Check if two Strings are anagrams of each other](https://leetcode.com/problems/valid-anagram/description/)
 
 # String Problems (Intermediate):
+
+## 8. Sort Characters By Frequency
 Problem: [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)
