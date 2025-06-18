@@ -69,3 +69,17 @@ Problem Source: [Striver's A2Z DSA Sheet - Longest Subarray with Given Sum](http
 Problem: [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
 ## Array Problems (Intermediate)
+
+## 18. Two Sum : Check if a pair with given sum exists in Array
+Problem: [1. Two sum](https://leetcode.com/problems/two-sum/description/)
+
+## 19. Sort an array of 0s, 1s and 2s
+Problem: [75. Sort Colors](https://leetcode.com/problems/sort-colors/description/)
+<img src="./Img/image.png" alt="Dutch National Flag">
+
+## 20. Majority Element that occurs more than N/2 times
+Problem: [169. Majority Element](https://leetcode.com/problems/majority-element/description/) 
+
+## 21.Maximum Subarray Sum in an Array- `Kadane's Algorithm`
+Problem: [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) 
+

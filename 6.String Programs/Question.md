@@ -26,5 +26,5 @@ Problem: [242.  Check if two Strings are anagrams of each other](https://leetcod
 
 # String Problems (Intermediate):
 
-## 8. Sort Characters By Frequency
+## 9. Sort Characters By Frequency
 Problem: [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)
