@@ -83,3 +83,21 @@ Problem: [169. Majority Element](https://leetcode.com/problems/majority-element/
 ## 21.Maximum Subarray Sum in an Array- `Kadane's Algorithm`
 Problem: [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) 
 
+## 22.Best time to Buy and Sell Stock
+Problem: [121. Best time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+
+## 23. Rearrange Array Elements by Sign
+Problem: [2149.Rearrange Array Elements by Sign ](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)
+
+## 24. Rearrange Array Elements by Sign- `Varient 2` 
+
+## 25. Print all permutation 
+
+## 26. find next lexicographically greater permutation
+Problem: [31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+
+## 27. Leaders in an Array
+
+## 28.Longest Consecutive Sequence in an Array
+Problem: [128. Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+
