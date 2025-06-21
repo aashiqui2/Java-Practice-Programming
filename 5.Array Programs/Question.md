@@ -101,3 +101,12 @@ Problem: [31. Next Permutation](https://leetcode.com/problems/next-permutation/d
 ## 28.Longest Consecutive Sequence in an Array
 Problem: [128. Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
+## 29. Set Matrix Zero
+Problem:[73. Set Matrix Zero ](https://leetcode.com/problems/set-matrix-zeroes/description/)
+
+## 30.Rotate Image by 90 degree
+Problem:[48.Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+
+## 31. Spiral Traversal of Matrix
+Problem:[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
+

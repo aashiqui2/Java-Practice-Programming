@@ -13,7 +13,7 @@ public class Demo28 {
         return false;
     }
 
-    /* public static int longestSuccessiveElements(int[] a) {
+    /* public static int longestConsecutive(int[] a) {
         int n = a.length; 
         int longest = 1;
         for (int i = 0; i < n; i++) {
@@ -31,7 +31,7 @@ public class Demo28 {
     //? Time Complexity: O(N2)
 
     //! Better Approach
-     /* public static int longestSuccessiveElements(int []a) {
+     /* public static int longestConsecutive(int []a) {
         int n = a.length;
         if (n == 0) return 0;
 
@@ -55,36 +55,35 @@ public class Demo28 {
     //? Time Complexity: O(NlogN) + O(N)
 
     //! Optimal Approach:
-    public static int longestSuccessiveElements(int[] a) {
-        int n = a.length;
-        if (n == 0)
-            return 0;
+    public static int longestConsecutive(int[] nums) {
 
-        int longest = 1;
-        Set<Integer> set = new HashSet<>();
-        for (int i = 0; i < n; i++) {
-            set.add(a[i]);
-        }
+       HashSet<Integer> set = new HashSet<>();
 
-        for (int it : set) {
-            if (!set.contains(it - 1)) {
-                // find consecutive numbers
-                int cnt = 1;
-                int x = it;
-                while (set.contains(x + 1)) {
-                    x = x + 1;
-                    cnt = cnt + 1;
+       for(int num: nums){
+            set.add(num);
+       }
+
+       int count = 0;
+       int max = 0;
+
+       for(int num : set){
+            if(!set.contains(num-1)){
+                count = 0;
+                while(set.contains(num)){
+                    count++;
+                    num++;
                 }
-                longest = Math.max(longest, cnt);
+                max = Math.max(max, count);
             }
-        }
-        return longest;
+       }
+
+       return max;
     }
     //? Time Complexity: O(3*N)
 
     public static void main(String[] args) {
         int[] a = { 100, 200, 1, 2, 3, 4 };
-        int ans = longestSuccessiveElements(a);
+        int ans = longestConsecutive(a);
         System.out.println("The longest consecutive sequence is " + ans);
     }
 }
